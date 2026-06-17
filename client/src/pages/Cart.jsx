@@ -106,7 +106,7 @@ const placeOrder = () => {
               <div key={item.id} className="cart-item">
 
                 <img
-                  src={`https://shoyu-backend.onrender.com${item.image}`}
+                  src={`https://shoyu3.onrender.com${item.image}`}
                   alt={item.name}
                   className="cart-item-image"
                 />

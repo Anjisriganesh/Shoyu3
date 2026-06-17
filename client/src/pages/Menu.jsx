@@ -12,7 +12,7 @@ const Menu = () => {
 
   const fetchMenu = async () => {
     try {
-      const res = await axios.get("https://shoyu-backend.onrender.com/api/menu");
+      const res = await axios.get("https://shoyu3.onrender.com/api/menu");
       setFoods(res.data);
     } catch (err) {
       console.error("Menu fetch error:", err);
@@ -84,7 +84,7 @@ const Menu = () => {
         <div className="food-item-card" key={food._id}>
 
           <img
-            src={`https://shoyu-backend.onrender.com${food.image}`}
+            src={`https://shoyu3.onrender.com${food.image}`}
             alt={food.name}
             className="food-item-image"
           />
